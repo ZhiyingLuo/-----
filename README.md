@@ -33,7 +33,7 @@ sudo iptables -A OUTPUT -d {網站IP} -j DROP
 ## Implementation Process
 
 <!-- What kind of problems you encounter, and how did you resolve the issue? -->
-原本的想法是用Raspberry Pi發出紅外線觸發一個會動的裝置藉此來觸動板機發射水柱，但是後來發現Raspberry Pi本身沒有發射紅外線的裝置，然後要購買要很難找哪裡，所以後來改成板機固定觸發，用限制電流的方式來時做，一開始用Raspberry Pi來提供水槍的電源，雖然PI的電壓足夠但是電流卻遠遠不足，所以後來用原本的電池當電源然後用MOSFET來當接收訊號成為開關
+原本的想法是用Raspberry Pi發出紅外線觸發一個會動的裝置藉此來觸動板機發射水柱，但是後來發現Raspberry Pi本身沒有發射紅外線的裝置，然後要購買要很難找哪裡，所以後來改成板機固定觸發，用限制電流的方式來實做，一開始用Raspberry Pi來提供水槍的電源，雖然PI的電壓足夠但是電流卻遠遠不足，所以後來用原本的電池當電源然後用MOSFET來當接收訊號成為開關
 ## Knowledge from Lecture
 
 <!-- What kind of knowledge did you use on this project? -->
